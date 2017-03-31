@@ -1,0 +1,12 @@
+{
+  "name": "longshore-boats-otd",
+  "app_id": "33d9d68e",
+  "gulpStartupTasks": [
+    "sass",
+    "watch"
+  ],
+  "watchPatterns": [
+    "www/**/*",
+    "!www/lib/**/*"
+  ]
+}
