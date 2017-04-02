@@ -3,10 +3,10 @@ var app = angular.module('longshore-boats-otd', ['ionic', 'ionic.cloud', 'ngCord
 app.config(function($ionicCloudProvider, $compileProvider, $ionicConfigProvider){
   $ionicCloudProvider.init({
     "core": {
-      "app_id": "33d9d68e}"
+      "app_id": "33d9d68e"
     },
     "push": {
-      "sender_id": "619003736575",
+      "sender_id": "1094185085815",
       "pluginConfig": {
         "ios": {
           "badge": true,
@@ -45,11 +45,6 @@ app.run(function($ionicPlatform, $ionicPush, currentUserService) {
     if (window.StatusBar) {
       // org.apache.cordova.statusbar required
       StatusBar.styleDefault();
-    }
-    if (window.indexedDB) {
-       console.log("I'm in WKWebView!");
-    } else {
-       console.log("I'm in UIWebView");
     }
   });
 });
